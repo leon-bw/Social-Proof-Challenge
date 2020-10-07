@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 
 
-/* ----- if mobile device max width 380px ----- */
-   @media only screen and (max-device-width: 380px) {
-    .mobile_device_380px{display: block;}       
-    .desktop {display: none;}
-}
-
 :root {
     --Dark-Magenta: #502050;
     --Dark-Grey-Magenta: #937B92;
