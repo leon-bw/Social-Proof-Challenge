@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+/* ----- if mobile device max width 380px ----- */
+   @media only screen and (max-device-width: 380px) {
+    .mobile_device_380px{display: block;}       
+    .desktop {display: none;}
+}
+
+:root {
+    --Dark-Magenta: #502050;
+    --Dark-Grey-Magenta: #937B92;
+    --Light-Grey-Magenta: #F7F2F7;
+    --Soft-Pink: #EE68A4;
+    --White: #FFFFFF;
+}
+
+
+body {
+    max-width: 1440px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.9375rem;
+    background: url("https://raw.githubusercontent.com/leon-bw/Social-Proof-Challenge/31ff0234409f895ba5781fc1b851bd935b6c9584/Images/bg-pattern-top-desktop.svg") top left, url("https://raw.githubusercontent.com/leon-bw/Social-Proof-Challenge/31ff0234409f895ba5781fc1b851bd935b6c9584/Images/bg-pattern-bottom-desktop.svg") bottom right; 
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+    padding: 5% 10%;
+}
+
+/* ----- Title ----- */
+
+h1 {
+    font-weight: 700;
+    color: var(--Dark-Magenta);
+}
+
+.sub-heading {
+    margin-top: 5%;
+    line-height: 1.5;
+    color: var(--Dark-Grey-Magenta);
+}
+
+/* ----- Star Reviews ----- */
+
+.fa-star {
+    color: orange;
+}
+
+.stars {
+    font-weight: 500;
+    color: var(--Dark-Magenta);
+}
+
+.rated5 {
+    background-color: var(--Light-Grey-Magenta);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 5% auto;
+}
+
+.rated5-text {
+    margin-left: 5px;
+}
+
+.reviews {
+    margin-right: 20%;
+}
+
+.report-guru {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.besttech {
+    margin-left: 20%;
+}
+
+
+
+/* ----- Testimonials ----- */
+
+.name {
+    color: var(--Light-Grey-Magenta);
+    margin-bottom: 0;
+    padding-top: 5%;
+    margin-left: 40%;
+    display: block;
+}
+.buyer {
+    color: var(--Soft-Pink);
+    margin-bottom: 15%;
+    display: block;
+    margin-left: 40%;
+}
+
+.review {
+    color: var(--White);
+}
+
+.buyer-image {
+    display: block;
+    float: left;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.first-buyer {
+    background-color: var(--Dark-Magenta);
+    border-radius: 10px;
+    padding: 10%;
+}
+.second-buyer {
+    margin-top: 10%;
+    background-color: var(--Dark-Magenta);
+    border-radius: 10px;
+    padding: 10%;
+}
+.third-buyer {
+    margin-top: 20%;
+    background-color: var(--Dark-Magenta);
+    border-radius: 10px;
+    padding: 10%;
+}
+
+/* ----- front end mentor tag ---- */
+
+.attribution {
+    margin: 50px auto;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* ----- Media Queries ---- */
+
+@media only screen and (max-width: 1100px) {
+    h1, .sub-heading {
+        text-align: center;
+    }
+    .third-buyer {
+        margin-top: 5%;
+    }
+    .reviews, .report-guru, .besttech {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    h1, .sub-heading {
+        text-align: center;
+    }
+    .third-buyer, .second-buyer {
+        margin-top: 5%;
+    }
+    .reviews, .report-guru, .besttech {
+        margin: 0;
+    }
+   
+
+}
