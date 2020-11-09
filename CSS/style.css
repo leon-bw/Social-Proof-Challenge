@@ -133,18 +133,6 @@ h1 {
 
 /* ----- Media Queries ---- */
 
-@media only screen and (max-width: 1100px) {
-    h1, .sub-heading {
-        text-align: center;
-    }
-    .third-buyer {
-        margin-top: 5%;
-    }
-    .reviews, .report-guru, .besttech {
-        margin: 0;
-    }
-}
-
 @media only screen and (max-width: 620px) {
     h1, .sub-heading {
         text-align: center;
@@ -155,6 +143,16 @@ h1 {
     .reviews, .report-guru, .besttech {
         margin: 0;
     }
-   
+}
 
+@media only screen and (max-width: 1100px) {
+    h1, .sub-heading {
+        text-align: center;
+    }
+    .third-buyer {
+        margin-top: 5%;
+    }
+    .reviews, .report-guru, .besttech {
+        margin: 0;
+    }
 }
